@@ -1,0 +1,8 @@
+<div class="row mb-1">
+    <header class=" align-items-end p-3 bg-white border-bottom shadow-sm fixed-top">
+      <div class="d-inline float-right mr-2">
+        <button class="d-inline ml-5 btn btn-primary" (click)="createTask()">Create Task</button>
+        <button class="d-inline ml-5 btn btn-primary" *ngIf="isAuthenticated()" (click)="logout()">Logout</button>
+      </div>
+    </header>
+  </div>

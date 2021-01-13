@@ -1,0 +1,13 @@
+.table td {
+    vertical-align : unset;
+    font-size:14px;
+  }
+  .w30{
+    width: 35%;
+  }
+.msgClass{
+    color: green;
+}
+.pagination {
+margin: 0px !important;
+}
